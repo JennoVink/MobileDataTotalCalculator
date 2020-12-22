@@ -1,0 +1,17 @@
+{
+  "name": "Calculate total MB's",
+  "description": "Based on a billing page, a 'total' section is added to display the total amount of data used.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["jquery-3.5.1.min.js", "background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Calculate total MB's",
+      "default_icon": "calculator_16x16.png"
+  },
+  "manifest_version": 2
+}
